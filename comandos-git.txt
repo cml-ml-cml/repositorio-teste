@@ -1,13 +1,83 @@
 
-git init
+1. git init
 
-git status
+2. git status
 
-    >>>>cria um arquivo na área
-    >>>>os arquivos são criados na área de trabalho git
-    >>>>os arquivos ficam vermelhinhos e no estado UNTRACKED
+3.
+>>>>cria um arquivo na área
+>>>>os arquivos são criados na área de trabalho git
+>>>>os arquivos ficam vermelhinhos e no estado UNTRACKED
 
-git add nome-do-arquivo  (coloca o arquivo numa área para commit)
+4. git add nome-do-arquivo  (coloca o arquivo numa área para commit)
 
     >>>>os arquivos agora ficam no estágio CHANGES TO BE COMMITED
 
+5. git log 
+
+    >>>>so aparece os arquivos que já foram comitados
+
+       C:\Users\user\estudo-git>git log
+       commit 93904d4d79fd6cd094e20d32bbf67b1643e39951 (HEAD -> master)
+       Author: ccmmll <cml.ml.cml@gmail.com>
+       Date:   Sun Oct 9 17:08:46 2022 -0300
+
+           Meu primeiro commit
+
+       C:\Users\user\estudo-git>
+
+6. git shortlog
+
+   C:\Users\user\estudo-git>git shortlog
+   ccmmll (1):
+      Meu primeiro commit
+
+   C:\Users\user\estudo-git>
+
+7. git show
+
+   C:\Users\user\estudo-git>git show
+   commit 93904d4d79fd6cd094e20d32bbf67b1643e39951 (HEAD -> master)
+   Author: ccmmll <cml.ml.cml@gmail.com>
+   Date:   Sun Oct 9 17:08:46 2022 -0300
+
+    Meu primeiro commit
+
+   diff --git a/comandos-git.txt b/comandos-git.txt
+   new file mode 100644
+   index 0000000..839d94b
+   --- /dev/null
+   +++ b/comandos-git.txt
+   @@ -0,0 +1,13 @@
+   +
+   +git init
+   +
+   +git status
+   +
+   +    >>>>cria um arquivo na área
+   +    >>>>os arquivos são criados na área de trabalho git
+   +    >>>>os arquivos ficam vermelhinhos e no estado UNTRACKED
+   +
+   +git add nome-do-arquivo  (coloca o arquivo numa área para commit)
+   +
+   +    >>>>os arquivos agora ficam no estágio CHANGES TO BE COMMITED
+   +
+   
+      C:\Users\user\estudo-git> 
+
+8.
+>>>>faz alteracao no arquivo
+
+
+
+9. git status
+
+   C:\Users\user\estudo-git>git status
+   On branch master
+   Changes not staged for commit:
+     (use "git add <file>..." to update what will be committed)
+     (use "git restore <file>..." to discard changes in working directory)
+           modified:   comandos-git.txt
+   
+   no changes added to commit (use "git add" and/or "git commit -a")
+   
+   C:\Users\user\estudo-git>
