@@ -1,0 +1,13 @@
+
+git init
+
+git status
+
+    >>>>cria um arquivo na área
+    >>>>os arquivos são criados na área de trabalho git
+    >>>>os arquivos ficam vermelhinhos e no estado UNTRACKED
+
+git add nome-do-arquivo  (coloca o arquivo numa área para commit)
+
+    >>>>os arquivos agora ficam no estágio CHANGES TO BE COMMITED
+
